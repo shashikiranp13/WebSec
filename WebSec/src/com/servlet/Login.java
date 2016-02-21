@@ -75,6 +75,7 @@ public class Login extends HttpServlet {
 				conn.close();
 			}
 			catch (Exception e){
+				System.out.println("exception ");
 				e.printStackTrace();
 			}
 	}
